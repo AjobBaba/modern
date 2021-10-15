@@ -44,7 +44,7 @@ ul li:hover{
     width: 380px;
     height: 380px;
     border-radius: 50%;
-    background: url(img/man.jpg);
+    background: url(man.jpg);
     background-size:cover;
     border: 15px solid;
     border-color:grey;
@@ -204,7 +204,7 @@ margin: auto;
     box-sizing: border-box;
    }
 .lwork .lbox1{
-    background: url(img/pic1.jpeg);
+    background: url(pic1.jpeg);
     background-size: cover;
     background-position: -20px 0px;
     transition:   width 3s;
@@ -215,7 +215,7 @@ margin: auto;
   transform: scale(1.2);
 }
     .lwork .lbox2{
-    background: url(img/pic2.jpg);
+    background: url(pic2.jpg);
     background-size: cover;
     background-position: -20px 0px;
     transition:   width 3s;
@@ -226,7 +226,7 @@ margin: auto;
     
     
        .lwork .lbox3{
-    background: url(img/pic3.jpg);
+    background: url(pic3.jpg);
     background-size: cover;
     background-position: -20px 0px;
     transition:   width 3s;
@@ -236,7 +236,7 @@ margin: auto;
 }
     
        .lwork .lbox4{
-    background: url(img/pic4.jpg);
+    background: url(pic4.jpg);
     background-size: cover;
     background-position: -10px 0px;
     transition:   width 3s;
@@ -246,7 +246,7 @@ margin: auto;
   transform: scale(1.2);
 }
        .lwork .lbox5{
-    background: url(img/pic5.jpg);
+    background: url(pic5.jpg);
     background-size: cover;
     background-position: -10px 0px;
     transition:   width 3s;
@@ -256,7 +256,7 @@ margin: auto;
 }
     
        .lwork .lbox6{
-    background: url(img/pic6.jpg);
+    background: url(pic6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:-10px 0px;
