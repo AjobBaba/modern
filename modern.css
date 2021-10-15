@@ -1,0 +1,327 @@
+.header{
+    width: 100%;
+    height:600px;
+    background:#280000 ;
+    position: relative;
+}
+h3{
+    color:white;
+    position: absolute;
+    top:-18px;
+    left: 50px;
+    font-family:  'Scheherazade New', serif;
+    font-size: 28px;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 25px;
+    right: 40px;
+}
+ul li{
+    list-style-type: none;
+    float: left;
+    margin: 0px 10px;
+    font-size: 22px;
+    padding:0px 10px;
+    text-align: center;
+    
+    
+   }
+ul li a{
+    text-decoration: none;
+    font-family:  'Scheherazade New', serif;
+    color: white;
+    
+}
+ul li:hover{
+    background: #76c38f;
+    border-radius: 15px ;
+}
+.man{
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background: url(img/man.jpg);
+    background-size:cover;
+    border: 15px solid;
+    border-color:grey;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.h2{
+    color: white;
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    top: 170px;
+    left: 90px;
+    font-family:  'Scheherazade New', serif;
+    line-height: 45px;
+    font-size: 30px;
+}
+#p1{
+    line-height: 25px;
+    margin-top: -20px;
+    width: 450px;
+    height: 150px;
+    overflow: hidden;
+}
+.btn{
+   
+    border: 3px solid white;
+    background-color:#280000;
+    color: white;
+    border-radius: 10px;
+    width:200px ;
+    height:50px;
+    text-align: center;
+    font-size: 38px;
+    margin-top:-15px ;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn:hover{
+    background: #76c38f;
+    
+}
+.work{
+    width: 100%;
+    height: 500px;
+    background:#650000;
+    position: relative;
+}
+.hr1{
+    height: 3px;
+    width: 80%;
+    background-color: grey ;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    
+}
+.hrtext{
+    font-family:  'Scheherazade New', serif ;
+    color: white;
+    background:grey ;
+    display: inline;
+    font-size: 28px;
+    padding: 0px 20px;
+    border-radius: 30px;
+    margin-left:-10px ; 
+    
+}
+.sr{
+width: 80px;
+height: 80px;
+position: absolute;
+top: 24px;
+left: 0px;
+right: 0px;
+margin: auto;
+    
+}
+.box{
+    position: absolute;
+    top: 120px;
+    left: 25px;
+}
+.box div{
+    width: 200px;
+    height: 290px;
+    background: #280000;
+    float: left;
+    margin: 0px 10px;
+    font-family:   'Scheherazade New', serif;
+    font-size: 35px;
+    line-height: 25px;
+    overflow: scroll;
+    color: #76c38f;
+    border:5px solid white ;
+}
+.lwork{
+    width: 100%;
+    height: 600px;
+    background: #650000; 
+    position: relative;
+}
+#hr2{
+    height: 3px;
+    width: 80%;
+    background-color: grey ;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    
+}
+
+.hrtext2{
+    font-family:  'Scheherazade New', serif ;
+    color: white;
+    background:grey ;
+    display: inline;
+    font-size: 28px;
+    padding: 0px 20px;
+    border-radius: 30px;
+    margin-left:-10px ; 
+    
+}
+.sr2{
+width: 300px;
+height: 120px;
+
+position: absolute;
+top: -25px;
+left: 100px;
+right: 0px;
+margin: auto;
+    
+}
+#lbox{
+  position: absolute;
+    top: 40px;
+    left: 20px;
+    right: 0px;
+    margin: auto;  
+}
+.lwork .lbox{
+    width: 290px;
+    height: 190px;
+    background:grey;
+    float: left;
+    margin: 20px 10px;
+    box-sizing: border-box;
+   }
+.lwork .lbox1{
+    background: url(img/pic1.jpeg);
+    background-size: cover;
+    background-position: -20px 0px;
+    transition:   width 3s;
+
+}
+
+.lwork .lbox1:hover {
+  transform: scale(1.2);
+}
+    .lwork .lbox2{
+    background: url(img/pic2.jpg);
+    background-size: cover;
+    background-position: -20px 0px;
+    transition:   width 3s;
+    }
+    .lwork .lbox2:hover {
+  transform: scale(1.2);
+}
+    
+    
+       .lwork .lbox3{
+    background: url(img/pic3.jpg);
+    background-size: cover;
+    background-position: -20px 0px;
+    transition:   width 3s;
+    }
+    .lwork .lbox3:hover {
+  transform: scale(1.2);
+}
+    
+       .lwork .lbox4{
+    background: url(img/pic4.jpg);
+    background-size: cover;
+    background-position: -10px 0px;
+    transition:   width 3s;
+    }
+    
+    .lwork .lbox4:hover {
+  transform: scale(1.2);
+}
+       .lwork .lbox5{
+    background: url(img/pic5.jpg);
+    background-size: cover;
+    background-position: -10px 0px;
+    transition:   width 3s;
+    }
+    .lwork .lbox5:hover {
+  transform: scale(1.2);
+}
+    
+       .lwork .lbox6{
+    background: url(img/pic6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:-10px 0px;
+    transition:   width 3s;
+    }
+    .lwork .lbox6:hover {
+  transform: scale(1.2);
+}
+.lower{
+    width: 100%;
+    height: 400px;
+    background: #303030;
+    position: relative;
+    
+}
+.lower div{
+    float: left;
+    margin: 25px;
+}
+.link a{
+    text-decoration: none;
+    color:#76c38f;
+    float:left;
+}
+.link {
+    width: 300px;
+    height:400px ;
+    
+}
+.h-2{
+    color: white;
+    font-family:'Scheherazade New', serif;;
+}
+.twits span{
+    font-family:   'Scheherazade New', serif;
+    color: #76c38f;
+}
+.twits{
+    font-family:   'Scheherazade New', serif;
+    width: 300px;
+    height: 400px;
+    color: white;
+    line-height: 1;
+}
+.contract{
+    width: 200px;
+    height: 400px;
+    
+   
+}
+.h-3{
+    color: white;
+    font-family:   'Scheherazade New', serif;
+}
+input{
+    background: #303030;
+    border-radius: 15px;
+}
+textarea{
+    background: #303030;
+    border-radius: 15px;
+}
+.sub{
+    background: #76c38f;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-left: 110px;
+}
